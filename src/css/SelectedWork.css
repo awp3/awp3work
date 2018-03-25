@@ -1,0 +1,48 @@
+.modalStyling {
+  display: flex;
+  flex-direction: column;
+  font-family: century;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  overflow: auto;
+}
+
+.headlineText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalContents {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+#turnOff:hover {
+  cursor: pointer;
+}
+
+.modalImage {
+  display: flex;
+  object-fit: contain;
+  width: 100%;
+  max-height: 550px;
+  max-width: 550px;
+  padding: 15px 5px 0;
+}

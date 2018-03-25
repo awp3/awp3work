@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1001.000000, -584.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="basic-layout" transform="translate(315.000000, 51.000000)">
+                <g id="navBar" transform="translate(247.000000, 533.000000)">
+                    <g id="iconmonstr-linkedin-4" transform="translate(439.000000, 0.000000)">
+                        <path d="M22.5,0 C10.074375,0 0,10.074375 0,22.5 C0,34.925625 10.074375,45 22.5,45 C34.925625,45 45,34.925625 45,22.5 C45,10.074375 34.925625,0 22.5,0 Z M18.75,30 L15,30 L15,18.75 L18.75,18.75 L18.75,30 Z M16.875,17.079375 C15.736875,17.079375 14.8125,16.149375 14.8125,15 C14.8125,13.8525 15.735,12.920625 16.875,12.920625 C18.015,12.920625 18.9375,13.8525 18.9375,15 C18.9375,16.149375 18.013125,17.079375 16.875,17.079375 Z M31.875,30 L28.12875,30 L28.12875,24.635625 C28.12875,21.10875 24.375,21.406875 24.375,24.635625 L24.375,30 L20.625,30 L20.625,18.75 L24.375,18.75 L24.375,20.799375 C26.01,17.769375 31.875,17.544375 31.875,23.701875 L31.875,30 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

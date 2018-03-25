@@ -1,0 +1,12 @@
+.style {
+  /* border: 2px solid black; */
+  max-width: 350px;
+  max-height: 350px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}

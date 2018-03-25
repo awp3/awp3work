@@ -1,0 +1,45 @@
+.aboutMeStyle {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  /* align-items: flex-start; */
+}
+
+.makeColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraphStyling {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: justify;
+  width: 450px;
+  line-height: 1.5;
+  font-family: century;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.imageFormat {
+  margin: 50px 30px 0 0px;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 923px) {
+  .aboutMeStyle {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .imageFormat {
+    margin: 20px 0 10px 0;
+  }
+
+  .paragraphStyling {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
