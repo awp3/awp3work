@@ -4,11 +4,23 @@
     "thumbnail": "q9Icon.png"
   },
   {
-    "title": "Japanese Brewery app",
+    "title": "Japanese Brewery iOS app",
     "thumbnail": "jlb.png"
   },
   {
-    "title": "Cinelist app",
+    "title": "Cinelist iOS app",
     "thumbnail": "cinelist.png"
+  },
+  {
+    "title": "Project LIGHT logo",
+    "thumbnail": "projLight.jpg"
+  },
+  {
+    "title": "Bloggers logo",
+    "thumbnail": "soshaLogo.jpg"
+  },
+  {
+    "title": "Red Cape short film",
+    "thumbnail": "redCape.png"
   }
 ]

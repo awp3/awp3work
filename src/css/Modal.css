@@ -1,16 +1,18 @@
 .Modal {
-  display: flex;
-  justify-content: center;
+  position: fixed;
   z-index: 1010;
   align-items: center;
-  width: 900px;
+  width: 80%;
   max-width: 100%;
   box-sizing: content-box;
   transition: all 0.3s ease-out;
   border-radius: 10px;
   background-color: white;
-  height: 900;
+  height: 80%;
   max-height: 100%;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px black;
+  left: 11%;
+  right: 15%;
+  top: 9%;
 }

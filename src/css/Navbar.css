@@ -30,14 +30,14 @@
   opacity: 0.4;
 }
 
-@media screen and (max-width: 923px) {
+@media screen and (max-width: 902px) {
   .webButtons {
-    font-size: 14px;
+    font-size: 18px;
     justify-content: center;
-    margin: 0 33px;
+    margin: 0 45px;
   }
   .imageAdjust {
-    width: 27px;
+    width: 30px;
   }
 }
 
