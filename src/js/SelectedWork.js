@@ -8,7 +8,6 @@ const selectedWork = props => {
 
   return (
     <div className="modalStyling">
-      {/* <div> */}
       <img
         id="turnOff"
         className="closeButton"
@@ -16,33 +15,37 @@ const selectedWork = props => {
         alt="close button"
         onClick={props.clicked}
       />
-      {/* </div> */}
+      <h2 className="centerHeadlineText">{props.showWork.title}</h2>
       <div className="modalContents">
-        <h2 className="headlineText">{props.showWork.title}</h2>
-        <h3 className="headlineText">Challenge</h3>
+        <h3>Challenge</h3>
         <p>
           Bacon ipsum dolor amet frankfurter shankle swine, kevin leberkas
           pancetta filet mignon fatback cow andouille tail ham hock pork loin
           boudin. Landjaeger jerky bacon cow sirloin ribeye beef. Chicken
           porchetta tail chuck alcatra, strip steak filet mignon. Hamburger
         </p>
-        <h3 className="headlineText">Solution</h3>
+        <h3>Solution</h3>
         <p>
           Bacon ipsum dolor amet frankfurter shankle swine, kevin leberkas
           pancetta filet mignon fatback cow andouille tail ham hock pork loin
           boudin. Landjaeger jerky bacon cow sirloin ribeye beef. Chicken
           porchetta tail chuck alcatra, strip steak filet mignon. Hamburge
         </p>
-        <h3 className="headlineText">Responsibilities</h3>
+        <h3>Responsibilities</h3>
         <p>
           Bacon ipsum dolor amet frankfurter shankle swine, kevin leberkas
           pancetta filet mignon fatback cow andouille tail ham hock pork loin
           boudin. Landjaeger jerky bacon cow sirloin ribeye beef. Chicken
           porchetta tail chuck alcatra, strip steak filet mignon. Hamburger
         </p>
-        {/* <div> */}
-        <img className="modalImage" src="cinelist.png" alt="test for now" />
-        {/* </div> */}
+        <div className="imageLayout">
+          <img className="modalImage" src="cinelist.png" alt="test for now" />
+          <img className="modalImage" src="cinelist.png" alt="test for now" />
+          <img className="modalImage" src="cinelist.png" alt="test for now" />
+          <img className="modalImage" src="cinelist.png" alt="test for now" />
+          <img className="modalImage" src="cinelist.png" alt="test for now" />
+          <img className="modalImage" src="cinelist.png" alt="test for now" />
+        </div>
       </div>
     </div>
   );
