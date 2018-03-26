@@ -1,5 +1,19 @@
 [
   {
+    "title": "Onsen Tracker logo",
+    "thumbnail": "onsenIcon@2x.svg",
+    "challenge": "Some challenge info",
+    "solution": "Some solution info",
+    "responsibilities": "Responsibilities taken"
+  },
+  {
+    "title": "Amazam app logo",
+    "thumbnail": "amazam.svg",
+    "challenge": "Some challenge info",
+    "solution": "Some solution info",
+    "responsibilities": "Responsibilities taken"
+  },
+  {
     "title": "Drone app logo",
     "thumbnail": "q9Icon.png",
     "challenge": "Some challenge info",
