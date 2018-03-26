@@ -23,36 +23,49 @@
   {
     "title": "Japanese Brewery iOS app",
     "thumbnail": "jlb.png",
-    "challenge": "Some challenge info",
-    "solution": "Some solution info",
-    "responsibilities": "Responsibilities taken"
+    "challenge":
+      "To introduce the growing local craft beer scene in Japan to foreigners and Japanese alike.",
+    "solution":
+      "An iOS app that displays the location of known local breweries in Japan. It also gives details of each breweries amenities.",
+    "responsibilities":
+      "Created the concept, and wireframed along with a prototype of the app. Functionality is complete along with the overall visual design."
   },
   {
     "title": "Cinelist iOS app",
     "thumbnail": "cinelist.png",
-    "challenge": "Some challenge info",
-    "solution": "Some solution info",
-    "responsibilities": "Responsibilities taken"
+    "challenge":
+      "To store a list of upcoming movies the user is excited to watch as well as movies they have already watched.",
+    "solution":
+      "An iOS application that connects to an international movie database for users from any country. Imagine a movie 'to-do-list' that is simple to use and keeps a record of what you want to watch and have watched as well.",
+    "responsibilities":
+      "Conceptualized idea, wireframed, prototyped developed the functionality of the app and created the visual design for iOS. I also deployed it to the app store."
   },
   {
     "title": "Project LIGHT logo",
     "thumbnail": "projLight.jpg",
-    "challenge": "Some challenge info",
-    "solution": "Some solution info",
-    "responsibilities": "Responsibilities taken"
+    "challenge":
+      "To create a logo for children and their families who need help and support financially due to certain disabilities they may have.",
+    "solution":
+      "Symbolic represention of iconic imagery to bring about hope and to create curiousity to know more of the organization.",
+    "responsibilities":
+      "Sketches supplied to client and output as a vector design when finalized."
   },
   {
     "title": "Bloggers logo",
     "thumbnail": "soshaLogo.jpg",
-    "challenge": "Some challenge info",
-    "solution": "Some solution info",
-    "responsibilities": "Responsibilities taken"
+    "challenge": "Visually convey a bloggers style and sassiness.",
+    "solution":
+      "Using an old typewriter to represent the various visual elements of the logo with a little modern twist, I these to express the bloggers old school sensibilites mixed with her modern day wit.",
+    "responsibilities":
+      "Sketches, and output of final design from vector based application."
   },
   {
     "title": "Red Cape short film",
     "thumbnail": "redCape.png",
-    "challenge": "Some challenge info",
-    "solution": "Some solution info",
-    "responsibilities": "Responsibilities taken"
+    "challenge":
+      "Recreate a believable 1800's look for the film to further drive the story.",
+    "solution":
+      "Remove all traces of modern objects like mailboxes, electrical boxes, cars, etc. by creating patches. Once removed, the image had to become monochromatic and grainy to further push the look of the 1800's.",
+    "responsibilities": "Compositing, tracking, and rotoscoping"
   }
 ]
