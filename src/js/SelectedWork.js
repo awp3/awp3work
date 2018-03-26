@@ -18,26 +18,11 @@ const selectedWork = props => {
       <h2 className="centerHeadlineText">{props.showWork.title}</h2>
       <div className="modalContents">
         <h3>Challenge</h3>
-        <p>
-          Bacon ipsum dolor amet frankfurter shankle swine, kevin leberkas
-          pancetta filet mignon fatback cow andouille tail ham hock pork loin
-          boudin. Landjaeger jerky bacon cow sirloin ribeye beef. Chicken
-          porchetta tail chuck alcatra, strip steak filet mignon. Hamburger
-        </p>
+        <p>{props.showWork.challenge}</p>
         <h3>Solution</h3>
-        <p>
-          Bacon ipsum dolor amet frankfurter shankle swine, kevin leberkas
-          pancetta filet mignon fatback cow andouille tail ham hock pork loin
-          boudin. Landjaeger jerky bacon cow sirloin ribeye beef. Chicken
-          porchetta tail chuck alcatra, strip steak filet mignon. Hamburge
-        </p>
+        <p>{props.showWork.solution}</p>
         <h3>Responsibilities</h3>
-        <p>
-          Bacon ipsum dolor amet frankfurter shankle swine, kevin leberkas
-          pancetta filet mignon fatback cow andouille tail ham hock pork loin
-          boudin. Landjaeger jerky bacon cow sirloin ribeye beef. Chicken
-          porchetta tail chuck alcatra, strip steak filet mignon. Hamburger
-        </p>
+        <p>{props.showWork.responsibilities}</p>
         <div className="imageLayout">
           <img className="modalImage" src="cinelist.png" alt="test for now" />
           <img className="modalImage" src="cinelist.png" alt="test for now" />
