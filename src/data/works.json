@@ -1,26 +1,44 @@
 [
   {
     "title": "Drone app logo",
-    "thumbnail": "q9Icon.png"
+    "thumbnail": "q9Icon.png",
+    "challenge": "Some challenge info",
+    "solution": "Some solution info",
+    "responsibilities": "Responsibilities taken"
   },
   {
     "title": "Japanese Brewery iOS app",
-    "thumbnail": "jlb.png"
+    "thumbnail": "jlb.png",
+    "challenge": "Some challenge info",
+    "solution": "Some solution info",
+    "responsibilities": "Responsibilities taken"
   },
   {
     "title": "Cinelist iOS app",
-    "thumbnail": "cinelist.png"
+    "thumbnail": "cinelist.png",
+    "challenge": "Some challenge info",
+    "solution": "Some solution info",
+    "responsibilities": "Responsibilities taken"
   },
   {
     "title": "Project LIGHT logo",
-    "thumbnail": "projLight.jpg"
+    "thumbnail": "projLight.jpg",
+    "challenge": "Some challenge info",
+    "solution": "Some solution info",
+    "responsibilities": "Responsibilities taken"
   },
   {
     "title": "Bloggers logo",
-    "thumbnail": "soshaLogo.jpg"
+    "thumbnail": "soshaLogo.jpg",
+    "challenge": "Some challenge info",
+    "solution": "Some solution info",
+    "responsibilities": "Responsibilities taken"
   },
   {
     "title": "Red Cape short film",
-    "thumbnail": "redCape.png"
+    "thumbnail": "redCape.png",
+    "challenge": "Some challenge info",
+    "solution": "Some solution info",
+    "responsibilities": "Responsibilities taken"
   }
 ]
