@@ -1,71 +1,120 @@
 [
   {
     "title": "Onsen Tracker logo",
-    "thumbnail": "onsenIcon@2x.svg",
-    "challenge": "Some challenge info",
-    "solution": "Some solution info",
-    "responsibilities": "Responsibilities taken"
+    "thumbnail": "./onsenTracker/onsenIconRed.png",
+    "challenge":
+      "Imagine a logo for an onsen (public bath) tracker in Japan. How to make something simple without using the obvious symbols and icons from onsens?",
+    "solution":
+      "Fusing the hiragana for 'ゆ', I used the contours and shape to meld the ideas of 'tracking', 'sharing', and 'listing' to form something fluid, balanced, and eye-catching. Western styling with Japanese sensibilities.",
+    "responsibilities":
+      "Sketches supplied to client and output as a vector design when completed.",
+    "workContent": {
+      "video": [],
+      "image": [
+        "./onsenTracker/onsenTracker01.PNG",
+        "./onsenTracker/onsenTracker02.png",
+        "./onsenTracker/onsenTracker03.png"
+      ]
+    }
   },
   {
     "title": "Amazam app logo",
-    "thumbnail": "amazam.svg",
-    "challenge": "Some challenge info",
-    "solution": "Some solution info",
-    "responsibilities": "Responsibilities taken"
+    "thumbnail": "./amazamLogo/amazam.svg",
+    "challenge":
+      "To create an app icon that stands out from other icons that use a camera icon.",
+    "solution":
+      "Using the camera icon with a small, subtle twist. Using the apps name, I used certain angles and lines to represent the taking of a picture as well as receiving data in return.",
+    "responsibilities":
+      "Sketches were made and then output from a vector based application.",
+    "workContent": {
+      "video": [],
+      "image": ["./amazamLogo/amazam01.PNG", "./amazamLogo/amazam.svg"]
+    }
   },
   {
     "title": "Drone app logo",
-    "thumbnail": "q9Icon.png",
-    "challenge": "Some challenge info",
-    "solution": "Some solution info",
-    "responsibilities": "Responsibilities taken"
+    "thumbnail": "./droneLogo/q9Icon.png",
+    "challenge": "To quickly design an icon for a drone rescue service",
+    "solution":
+      "Three key icons are incorporated to express the importance and reliability of the drone service.",
+    "responsibilities":
+      "Sketches, and output of final design from vector based application.",
+    "workContent": {
+      "video": [],
+      "image": ["./droneLogo/q9Icon.png"]
+    }
   },
   {
     "title": "Japanese Brewery iOS app",
-    "thumbnail": "jlb.png",
+    "thumbnail": "./jlb/jlb.png",
     "challenge":
       "To introduce the growing local craft beer scene in Japan to foreigners and Japanese alike.",
     "solution":
       "An iOS app that displays the location of known local breweries in Japan. It also gives details of each breweries amenities.",
     "responsibilities":
-      "Created the concept, and wireframed along with a prototype of the app. Functionality is complete along with the overall visual design."
+      "Created the concept, and wireframed along with a prototype of the app. Functionality is complete along with the overall visual design.",
+    "workContent": {
+      "video": [],
+      "image": ["./jlb/jlb01.png", "./jlb/jlb02.png", "./jlb/jlb03.png"]
+    }
   },
   {
     "title": "Cinelist iOS app",
-    "thumbnail": "cinelist.png",
+    "thumbnail": "./cinelist/cinelist.png",
     "challenge":
       "To store a list of upcoming movies the user is excited to watch as well as movies they have already watched.",
     "solution":
       "An iOS application that connects to an international movie database for users from any country. Imagine a movie 'to-do-list' that is simple to use and keeps a record of what you want to watch and have watched as well.",
     "responsibilities":
-      "Conceptualized idea, wireframed, prototyped developed the functionality of the app and created the visual design for iOS. I also deployed it to the app store."
+      "Conceptualized idea, wireframed, prototyped developed the functionality of the app and created the visual design for iOS. I also deployed it to the app store.",
+    "workContent": {
+      "video": [],
+      "image": [
+        "./cinelist/cinelist02.png",
+        "./cinelist/cinelist04.png",
+        "./cinelist/cinelist05.png",
+        "./cinelist/cinelist06.png"
+      ]
+    }
   },
   {
     "title": "Project LIGHT logo",
-    "thumbnail": "projLight.jpg",
+    "thumbnail": "./projLight/projLight.jpg",
     "challenge":
       "To create a logo for children and their families who need help and support financially due to certain disabilities they may have.",
     "solution":
       "Symbolic represention of iconic imagery to bring about hope and to create curiousity to know more of the organization.",
     "responsibilities":
-      "Sketches supplied to client and output as a vector design when finalized."
+      "Sketches supplied to client and output as a vector design when finalized.",
+    "workContent": {
+      "video": [],
+      "image": ["./projLight/projLight.jpg"]
+    }
   },
   {
     "title": "Bloggers logo",
-    "thumbnail": "soshaLogo.jpg",
+    "thumbnail": "./soshaLogo/soshaLogo.jpg",
     "challenge": "Visually convey a bloggers style and sassiness.",
     "solution":
       "Using an old typewriter to represent the various visual elements of the logo with a little modern twist, I these to express the bloggers old school sensibilites mixed with her modern day wit.",
     "responsibilities":
-      "Sketches, and output of final design from vector based application."
+      "Sketches, and output of final design from vector based application.",
+    "workContent": {
+      "video": [],
+      "image": ["./soshaLogo/soshaLogo.jpg"]
+    }
   },
   {
     "title": "Red Cape short film",
-    "thumbnail": "redCape.png",
+    "thumbnail": "./redCape/redCape.png",
     "challenge":
       "Recreate a believable 1800's look for the film to further drive the story.",
     "solution":
       "Remove all traces of modern objects like mailboxes, electrical boxes, cars, etc. by creating patches. Once removed, the image had to become monochromatic and grainy to further push the look of the 1800's.",
-    "responsibilities": "Compositing, tracking, and rotoscoping"
+    "responsibilities": "Compositing, tracking, and rotoscoping",
+    "workContent": {
+      "video": ["https://player.vimeo.com/video/261968233"],
+      "image": []
+    }
   }
 ]

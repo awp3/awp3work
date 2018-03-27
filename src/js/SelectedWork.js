@@ -17,19 +17,35 @@ const selectedWork = props => {
       />
       <h2 className="centerHeadlineText">{props.showWork.title}</h2>
       <div className="modalContents">
-        <h3>Challenge</h3>
+        <h3 className="overrideHeaders">Challenge</h3>
         <p>{props.showWork.challenge}</p>
-        <h3>Solution</h3>
+        <h3 className="overrideHeaders">Solution</h3>
         <p>{props.showWork.solution}</p>
-        <h3>Responsibilities</h3>
+        <h3 className="overrideHeaders">Responsibilities</h3>
         <p>{props.showWork.responsibilities}</p>
         <div className="imageLayout">
-          <img className="modalImage" src="cinelist.png" alt="test for now" />
-          <img className="modalImage" src="cinelist.png" alt="test for now" />
-          <img className="modalImage" src="cinelist.png" alt="test for now" />
-          <img className="modalImage" src="cinelist.png" alt="test for now" />
-          <img className="modalImage" src="cinelist.png" alt="test for now" />
-          <img className="modalImage" src="cinelist.png" alt="test for now" />
+          {props.showWork.workContent["video"].map(element => {
+            return (
+              <iframe
+                src={element}
+                width="640"
+                height="360"
+                frameborder="0"
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowfullscreen
+              />
+            );
+          })}
+          {props.showWork.workContent["image"].map(element => {
+            return (
+              <img
+                className="modalImage"
+                src={element}
+                alt={props.showWork.title}
+              />
+            );
+          })}
         </div>
       </div>
     </div>

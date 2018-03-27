@@ -23,6 +23,12 @@
   flex-direction: column;
   align-items: center;
   padding: 0 20px;
+  margin: 10px 0;
+  line-height: 1em;
+}
+
+.overrideHeaders {
+  margin: 20px 0 -5px 0;
 }
 
 .closeButton {
@@ -48,7 +54,8 @@ p {
 .modalImage {
   object-fit: contain;
   width: 100%;
-  max-height: 550px;
-  max-width: 550px;
+  max-height: 400px;
+  max-width: 400px;
+  margin: 0 -40px;
   padding: 15px 5px 0;
 }
