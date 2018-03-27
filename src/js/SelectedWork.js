@@ -24,23 +24,14 @@ const selectedWork = props => {
         <h3 className="overrideHeaders">Responsibilities</h3>
         <p>{props.showWork.responsibilities}</p>
         <div className="imageLayout">
-          {props.showWork.workContent["video"].map(element => {
-            return (
-              <iframe
-                src={element}
-                width="640"
-                height="360"
-                frameborder="0"
-                webkitallowfullscreen
-                mozallowfullscreen
-                allowfullscreen
-              />
-            );
+          {props.showWork.workContent["video"].map((element, index) => {
+            return <embed src={element} width="640" height="360" />;
           })}
-          {props.showWork.workContent["image"].map(element => {
+          {props.showWork.workContent["image"].map((element, index) => {
             return (
               <img
                 className="modalImage"
+                key={index}
                 src={element}
                 alt={props.showWork.title}
               />
