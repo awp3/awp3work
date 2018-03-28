@@ -8,7 +8,7 @@ export default class Profile extends Component {
         <div>
           <img
             className="imageFormat"
-            src="myProfilePict.png"
+            src="myProfilePictv02.png"
             alt="profile of me"
           />
         </div>
