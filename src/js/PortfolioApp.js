@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../css/PortfolioApp.css";
 import LogoIcon from "./LogoIcon";
-import Navbar from "./Navbar";
+import MyNavbar from "./Navbar";
 import GalleryList from "./GalleryList";
 import Profile from "./Profile";
 
@@ -36,7 +36,7 @@ class PortfolioApp extends Component {
     return (
       <div className="position">
         <LogoIcon myLogo={"myLogo.svg"} />
-        <Navbar workPage={this.workPage} aboutMe={this.aboutMe} />
+        <MyNavbar workPage={this.workPage} aboutMe={this.aboutMe} />
         {this.currentView}
       </div>
     );
