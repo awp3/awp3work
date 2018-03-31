@@ -1,9 +1,21 @@
 .imageAdjust {
+  height: auto;
   width: 33px;
 }
 
 .navbar-nav > li > a {
   color: black !important;
+}
+
+ul.nav.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: red; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .fontStyling {
@@ -15,7 +27,6 @@
   background-color: white !important;
   border-color: white !important;
   box-shadow: none !important;
-  /* -webkit-box-shadow: none !important; */
   background-image: none !important;
 }
 
@@ -25,4 +36,10 @@
 
 .imageAdjust:hover {
   opacity: 0.4;
+}
+
+.navbar-nav {
+  float: none !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
 }

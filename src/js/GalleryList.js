@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/GalleryList.css";
-import Thumbnail from "./Thumbnail";
+import MyThumbnail from "./Thumbnail";
 import Works from "../data/works.json";
 import Modal from "../UI/Modal";
 import SelectedWork from "../js/SelectedWork";
@@ -33,7 +33,7 @@ export default class GalleryList extends Component {
   render() {
     const portfolio = this.state.works.map((work, index) => {
       return (
-        <Thumbnail
+        <MyThumbnail
           key={index}
           title={work.title}
           thumbnail={work.thumbnail}
