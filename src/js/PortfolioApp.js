@@ -42,7 +42,7 @@ class PortfolioApp extends Component {
       // </div>
 
       <Grid>
-        {/* my icon */}
+        {/* *****my icon***** */}
         <Row className="show-grid">
           <Col xs={4} sm={4} md={4} />
           <Col xs={4} sm={4} md={4}>
@@ -51,49 +51,23 @@ class PortfolioApp extends Component {
           <Col xs={4} sm={4} md={4} />
         </Row>
 
-        {/* the navbar */}
+        {/* *****the navbar***** */}
         <Row className="show-grid">
-          <Col
-            xs={2}
-            sm={2}
-            md={2}
-            // style={{ background: "pink", border: "1px solid purple" }}
-          >
-            {/* <code>&lt;{"Col xs={1} sm={2} md={2}"} /">">">">">">">">&gt;</code> */}
-          </Col>
-          <Col
-            xs={8}
-            sm={8}
-            md={8}
-            // style={{ background: "grey", border: "1px solid black" }}
-          >
+          <Col xs={2} sm={2} md={2} />
+          <Col xs={8} sm={8} md={8}>
             <MyNavbar workPage={this.workPage} aboutMe={this.aboutMe} />
-            {/* <code>&lt;{"Col xs={8} sm={8} md={8}"} /">">">">">">">">&gt;</code> */}
           </Col>
-          <Col
-            xs={2}
-            sm={2}
-            md={2}
-            // style={{ background: "pink", border: "1px solid purple" }}
-          >
-            {/* <code>&lt;{"Col xs={1} sm={2} md={2}"} /">">">">">">">">&gt;</code> */}
-          </Col>
+          <Col xs={2} sm={2} md={2} />
         </Row>
 
-        {/* <Row className="show-grid">
-          <Col xs={6} xsOffset={6}>
-            <code>&lt;{"Col xs={6} xsOffset={6}"} /">">">">">">">">&gt;</code>
+        {/* *****work gallery***** */}
+        <Row className="show-grid">
+          <Col xsHidden smHidden mdHidden style={{ backgroundColor: "gray" }} />
+          <Col xs={12} sm={12} md={12}>
+            {this.currentView}
           </Col>
-        </Row> */}
-
-        {/* <Row className="show-grid">
-          <Col md={6} mdPush={9}>
-            <code>&lt;{"Col md={6} mdPush={9}"} /">">">">">">">">&gt;</code>
-          </Col>
-          <Col md={6} mdPull={6}>
-            <code>&lt;{"Col md={6} mdPull={6}"} /">">">">">">">">&gt;</code>
-          </Col>
-        </Row> */}
+          <Col xsHidden smHidden mdHidden style={{ backgroundColor: "gray" }} />
+        </Row>
       </Grid>
     );
   }
