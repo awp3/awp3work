@@ -30,6 +30,10 @@ export default class GalleryList extends Component {
     document.body.classList.remove("bodyModal");
   };
 
+  clickAndShow = () => {
+    console.log("I was clicked");
+  };
+
   render() {
     const portfolio = this.state.works.map((work, index) => {
       return (
