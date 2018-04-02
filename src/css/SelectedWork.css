@@ -1,6 +1,4 @@
 .modalStyling {
-  display: flex;
-  flex-direction: column;
   font-family: century;
   position: fixed;
   top: 0;
@@ -12,10 +10,7 @@
 }
 
 .centerHeadlineText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: underline;
+  text-align: center;
 }
 
 .modalContents {
@@ -29,6 +24,7 @@
 
 .overrideHeaders {
   margin: 20px 0 -5px 0;
+  text-align: center;
 }
 
 .closeButton {
@@ -40,6 +36,13 @@
 p {
   text-align: justify;
   line-height: 1.5;
+  font-size: 18px;
+}
+
+.paragraphsOnly {
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #turnOff:hover {
@@ -49,13 +52,13 @@ p {
 .imageLayout {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .modalImage {
   object-fit: contain;
   width: 100%;
   max-height: 400px;
-  max-width: 400px;
-  margin: 0 -40px;
-  padding: 15px 5px 0;
+  max-width: 300px;
+  margin: 40px 5%;
 }

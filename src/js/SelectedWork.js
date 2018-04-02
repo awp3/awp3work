@@ -18,14 +18,14 @@ const selectedWork = props => {
       <h2 className="centerHeadlineText">{props.showWork.title}</h2>
       <div className="modalContents">
         <h3 className="overrideHeaders">Challenge</h3>
-        <p>{props.showWork.challenge}</p>
+        <p className="paragraphsOnly">{props.showWork.challenge}</p>
         <h3 className="overrideHeaders">Solution</h3>
-        <p>{props.showWork.solution}</p>
+        <p className="paragraphsOnly">{props.showWork.solution}</p>
         <h3 className="overrideHeaders">Responsibilities</h3>
-        <p>{props.showWork.responsibilities}</p>
+        <p className="paragraphsOnly">{props.showWork.responsibilities}</p>
         <div className="imageLayout">
           {props.showWork.workContent["video"].map((element, index) => {
-            return <embed src={element} width="640" height="360" />;
+            return <embed key={index} src={element} width="640" height="360" />;
           })}
           {props.showWork.workContent["image"].map((element, index) => {
             return (
