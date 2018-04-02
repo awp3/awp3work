@@ -35,12 +35,6 @@ class PortfolioApp extends Component {
 
   render() {
     return (
-      // <div className="position">
-      //   <LogoIcon myLogo={"myLogo.svg"} />
-      //   <MyNavbar workPage={this.workPage} aboutMe={this.aboutMe} />
-      //   {this.currentView}
-      // </div>
-
       <Grid>
         {/* *****my icon***** */}
         <Row className="show-grid">

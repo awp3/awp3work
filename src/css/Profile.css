@@ -1,14 +1,7 @@
 .aboutMeStyle {
   display: flex;
   flex-direction: row;
-  /* align-content: space-around; */
-  /* flex-wrap: wrap; */
 }
-
-/* .makeColumn {
-  display: flex;
-  flex-direction: column;
-} */
 
 .paragraphStyling {
   font-size: 20px;
