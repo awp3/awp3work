@@ -3,6 +3,10 @@
   flex-direction: row;
 }
 
+.makeColumn {
+  margin-bottom: 10%;
+}
+
 .paragraphStyling {
   font-size: 20px;
   letter-spacing: 1px;
