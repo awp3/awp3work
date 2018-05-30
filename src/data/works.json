@@ -46,7 +46,7 @@
   },
   {
     "title": "Japanese Brewery iOS app",
-    "thumbnail": "./jlb/jlbv02.png",
+    "thumbnail": "./jlb/jlb02_052018.png",
     "challenge":
       "To introduce the growing local craft beer scene in Japan to foreigners and Japanese alike.",
     "solution":
@@ -55,7 +55,11 @@
       "Created the concept, and wireframed along with a prototype of the app. Functionality is complete along with the overall visual design.",
     "workContent": {
       "video": [],
-      "image": ["./jlb/jlb01.png", "./jlb/jlb02v02.png", "./jlb/jlb03.png"]
+      "image": [
+        "./jlb/jlb01_052018.png",
+        "./jlb/jlb02_052018.png",
+        "./jlb/jlb03_052018.png"
+      ]
     }
   },
   {
