@@ -2,20 +2,22 @@
   "name": "a3portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://awp3.github.io/a3portfolio",
+  "homepage": "http://awp3.github.io/awp3work",
   "dependencies": {
-    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
-    "react-scripts": "^1.1.1"
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "a3portfolio -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }

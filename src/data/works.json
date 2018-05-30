@@ -60,7 +60,7 @@
   },
   {
     "title": "Cinelist iOS app",
-    "thumbnail": "./cinelist/cinelistv02.png",
+    "thumbnail": "./cinelist/cinelist01_052018.png",
     "challenge":
       "To store a list of upcoming movies the user is excited to watch as well as movies they have already watched.",
     "solution":
@@ -70,10 +70,9 @@
     "workContent": {
       "video": [],
       "image": [
-        "./cinelist/cinelist02v02.png",
-        "./cinelist/cinelist04v02.png",
-        "./cinelist/cinelist05v02.png",
-        "./cinelist/cinelist06.png"
+        "./cinelist/cinelist01_052018.png",
+        "./cinelist/cinelist02_052018.png",
+        "./cinelist/cinelist03_052018.png"
       ]
     }
   },
